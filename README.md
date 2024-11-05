@@ -35,7 +35,7 @@ I checked for data consistency using the column quality, column profile, and col
 Data visualization: created interactive dashboards,used visualization(e.g, charts, cards,tables), filtered data using Slicers.
 ```
 ### SQL QUERIES
-
+```
 create database Sales_Data_Capstone
 --- 1 retrieve the total sales for each product category
 Select * from [dbo].[Sales Data]
@@ -105,8 +105,10 @@ Where
 OrderDate >= DATEADD(quarter,-1, Getdate())
 )
 and OrderDate >= DATEADD(quarter,-1, Getdate()) 
+```
 
 ### RESULTS
+```
 TOTAL SALES PER PRODUCT
 Top-Selling Products: Shoes (613,380) and Shirts (485,600) are the highest performers, making up over 50% of total sales.
 Lower-Selling Products: Socks (180,785) and Jackets (208,230) have the weakest sales, indicating possible opportunities for improvement.
@@ -125,3 +127,4 @@ Top Month: February with 546,300, the highest sales.
 Lowest Month: September with 34,720, significantly lower than other months.
 Steady Performers: January, July, and June had relatively strong sales, between 240,000 and 275,000.
 Declining Trend: Sales show a notable drop after February, with most months dipping below 150,000.
+```
