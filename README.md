@@ -25,15 +25,30 @@ SQL Server: Data storage and quering
 PowerBI: Data visualization and reporting
 ```
 ### METHODOLOGY:
+### Data Collection
 ```
-Data Cleaning and Analysis on Excel: I removed duplicates by highligting and using the remove duplicates features, utilized Pivot tables to summarize data, Filter to improve data visualization and enhance insights, Charts to visualize trends and pattern, Slicer for interactive filtering.
-Data Cleaning and Transformation on PowerBI: 
-I used power query editor to clean and transform data.
-i removed duplicates using remove Duplicates feature.
-i changed data types using the data type feature.
-I checked for data consistency using the column quality, column profile, and column distribution.
-Data visualization: created interactive dashboards,used visualization(e.g, charts, cards,tables), filtered data using Slicers.
+The dataset for the analysis was provided by LITA Incubator Hub.
 ```
+
+### EXPLORATORY DATA ANALYSIS (EDA)
+1. Data Cleaning and Analysis on Excel:
+   1. Data loading and inspection
+   2. Checked for Null values and removed duplicates by highligting and using the remove duplicates features.
+   3. Utilized Pivot tables to summarize data, Filter to improve data visualization and enhance insights.
+   4. Charts to visualize trends and pattern, Slicer for interactive filtering.
+       
+2. Data Cleaning and Transformation on PowerBI: 
+- Used power query editor to clean and transform data.
+- Removed duplicates using remove Duplicates feature.
+- Changed data types using the data type feature.
+- Checked for data consistency using the column quality, column profile, and column distribution.
+- Data visualization: created Power BI dashboard that visualizes the insights found in Excel and SQL which include a sales overview, top-performing products, and
+regional breakdowns.
+(e.g, charts, cards,tables).
+
+3. CALCULATIONS
+- calculate metrics such as average sales per product and total revenue by region.
+
 ### SQL QUERIES
 ```
 create database Sales_Data_Capstone
@@ -110,21 +125,21 @@ and OrderDate >= DATEADD(quarter,-1, Getdate())
 ### RESULTS
 ```
 TOTAL SALES PER PRODUCT
-Top-Selling Products: Shoes (613,380) and Shirts (485,600) are the highest performers, making up over 50% of total sales.
-Lower-Selling Products: Socks (180,785) and Jackets (208,230) have the weakest sales, indicating possible opportunities for improvement.
-Balanced Sales: Sales are relatively well-distributed across the products, with moderate performance from Gloves (296,900) and Hats (316,195).
-Opportunities: Targeted promotions for socks and jackets, and cross-promotions with top-sellers like shoes and shirts, could help boost overall revenue.
+- Top-Selling Products: Shoes (613,380) and Shirts (485,600) are the highest performers, making up over 50% of total sales.
+- Lower-Selling Products: Socks (180,785) and Jackets (208,230) have the weakest sales, indicating possible opportunities for improvement.
+- Balanced Sales: Sales are relatively well-distributed across the products, with moderate performance from Gloves (296,900) and Hats (316,195).
+- Opportunities: Targeted promotions for socks and jackets, and cross-promotions with top-sellers like shoes and shirts, could help boost overall revenue.
 
 TOTAL SALES PER REGION
-Top-Performing Region: The South region leads with 927,820 in sales, accounting for about 44.2% of total sales.
+- Top-Performing Region: The South region leads with 927,820 in sales, accounting for about 44.2% of total sales.
 Other Regions:
-East: 485,925 (23.1% of total sales)
-North: 387,000 (18.4% of total sales)
-West: 300,345 (14.3% of total sales)
+- East: 485,925 (23.1% of total sales)
+- North: 387,000 (18.4% of total sales)
+- West: 300,345 (14.3% of total sales)
 
 TOTAL SALES PER MONTH
-Top Month: February with 546,300, the highest sales.
-Lowest Month: September with 34,720, significantly lower than other months.
-Steady Performers: January, July, and June had relatively strong sales, between 240,000 and 275,000.
-Declining Trend: Sales show a notable drop after February, with most months dipping below 150,000.
+- Top Month: February with 546,300, the highest sales.
+- Lowest Month: September with 34,720, significantly lower than other months.
+- Steady Performers: January, July, and June had relatively strong sales, between 240,000 and 275,000.
+- Declining Trend: Sales show a notable drop after February, with most months dipping below 150,000.
 ```
