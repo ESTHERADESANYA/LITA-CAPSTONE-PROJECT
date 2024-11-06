@@ -8,6 +8,7 @@
 - [DATA DESCRIPITION](###DATA-DESCRIPITION)
 - [DATA TOOLS](###DATA-TOOLS)
 - [DATA DESCRIPITION](###DATA-DESCRIPITION)
+- [DATA COLLECTION](###DATA-COLLECTION)
 - [METHODOLOGY](###METHODOLOGY)
 - [SQL QUERIES](###SQL-QUERIES)
 
@@ -29,30 +30,29 @@ The goal is to provide insight into average sales per product and total revenue 
 
 ### DATA DESCRIPITION
 ```
-Order ID: This is a unique identifier associated with product purchased by customer.
-Customer ID: This is a unique identifier assigned to each customer
-Product: Goods purchased by customers.
-Region: Geographical area where transaction occurs.
-Order Date: This is the specific date on which a customer places an order for a product or service.
-Quantity: The amount or number of product being ordered or sold
-Unit Price: Cost of a single unit of a product
-Total Sales: The overall revenue generated from product sold over a specific period. 
-```
- 
-Data sources:Excel files.
+- Order ID: This is a unique identifier associated with product purchased by customer.
+- Customer ID: This is a unique identifier assigned to each customer
+- Product: Goods purchased by customers (Shirt, Shoes, Hat, Socks, Gloves, Jacket).
+- Region: Geographical area where transaction occurs (North,East,South,West).
+- Order Date: This is the specific date on which a customer places an order for a product or service.
+- Quantity: The amount or number of product being ordered or sold
+- Unit Price: Cost of a single unit of a product
+- Total Sales: The overall revenue generated from product sold over a specific period. 
 ```
 
 ### DATA TOOLS:
 ```
-Microsoft Excel: Data analysis and manipulation
-SQL Server: Data storage and quering
-PowerBI: Data visualization and reporting
+1 Microsoft Excel: Data analysis and manipulation. [Download Here](https://www.microsoft.com/en-us/microsoft-365/previous-versions/microsoft-excel-2013) 
+2 SQL Server: Data storage and quering. [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+3 PowerBI: Data visualization and reporting. [Download Here](https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads)
 ```
-### METHODOLOGY:
+
 ### Data Collection
 ```
 The dataset for the analysis was provided by LITA Incubator Hub.
 ```
+
+### METHODOLOGY:
 
 ### EXPLORATORY DATA ANALYSIS (EDA)
 1. Data Cleaning and Analysis on Excel:
