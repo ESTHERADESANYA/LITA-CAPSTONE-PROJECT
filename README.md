@@ -1,7 +1,11 @@
 # LITA-CAPSTONE-PROJECT
-This repository contains the documentation for the Lita Capstone Project,focusing on sales analytics using Excel, SQL and PowerBI. The project aims to uncover key insights such as top-selling products, regional performance, and monthly sales trends. Additionally, The goal is to provide insight into average sales per product and total revenue by region, to inform business decisions. 
 
 ### PROJECT TITLE: SALES PERFORMANCE ANALYSIS
+
+### PROJECT OVERVIEW
+This repository contains the documentation for the Lita Capstone Project,focusing on sales analytics using Excel, SQL and PowerBI.
+The project aims to uncover key insights such as top-selling products, regional performance, and monthly sales trends. Additionally,
+The goal is to provide insight into average sales per product and total revenue by region, to inform business decisions. 
 
 ### PROJECT SCOPE:
 ### PROJECT OBJECTIVE:
