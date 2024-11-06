@@ -53,29 +53,36 @@ The dataset for the analysis was provided by LITA Incubator Hub.
 ```
 
 ### METHODOLOGY:
-
-### EXPLORATORY DATA ANALYSIS (EDA)
+```
+Exploratory Data Analysis (EDA) is the first step in data analysis to understand its main characteristics
+I worked on 9922 rows and 8 Columns
+DATA MANIPULATION
 1. Data Cleaning and Analysis on Excel:
    1. Data loading and inspection
    2. Checked for Null values and removed duplicates by highligting and using the remove duplicates features.
-   3. Utilized Pivot tables to summarize data, Filter to improve data visualization and enhance insights.
+   3. Utilized Pivot tables to summarize data.
    4. Charts to visualize trends and pattern, Slicer for interactive filtering.
-       
-2. Data Cleaning and Transformation on PowerBI: 
-- Used power query editor to clean and transform data.
+FUNCTIONS
+- Calculated metrics such as average sales per product and total revenue by region.
+
+2. Data Cleaning and Transformation on PowerBI:
 - Removed duplicates using remove Duplicates feature.
 - Changed data types using the data type feature.
-- Checked for data consistency using the column quality, column profile, and column distribution.
-- Data visualization: created Power BI dashboard that visualizes the insights found in Excel and SQL which include a sales overview, top-performing products, and
-regional breakdowns.
-(e.g, charts, cards,tables).
-
-3. CALCULATIONS
-- calculate metrics such as average sales per product and total revenue by region.
+- Checked for data consistency using the column quality,
+  column profile, and column distribution.
+- Data visualization: created Power BI dashboard that visualizes
+  the insights found in Excel and SQL which include a sales overview,
+  top-performing products, and regional breakdowns.
+- I utilized slicers for interactive analysis.(e.g, charts, cards,tables).
+```
 
 ### SQL QUERIES
 ```
-create database Sales_Data_Capstone
+
+- The cleaned data from Excel was saved as CSV files and then imported into the SQL Database System.
+- I carried out my queries using DAX expressions, SQL Clauses and Data Query Language
+
+- create database Sales_Data_Capstone
 --- 1 retrieve the total sales for each product category
 Select * from [dbo].[Sales Data]
 select sum(total_sales) as Total_Sales,
@@ -83,7 +90,7 @@ product from [dbo].[Sales Data]
 group by product
 order by Total_sales Desc
 
---2 find the number of sales transactions in each region 
+- --2 find the number of sales transactions in each region 
 select region,
 count(Orderid) 
 as Number_of_Sales_Transaction
@@ -91,7 +98,7 @@ from [dbo].[Sales Data]
 group by region 
 order by Number_of_Sales_Transaction desc
 
-----3 find the highest selling product by total sales region
+- ----3 find the highest selling product by total sales region
 select Top 1
 product,
 sum(total_sales) as Total_sales_value 
@@ -99,14 +106,14 @@ from [dbo].[Sales Data]
 group by product 
 order by Total_sales_value desc
 
---4 calculate total revenue per product
+- --4 calculate total revenue per product
 select product,
 sum(Total_sales) as Total_Revenue
 from [dbo].[Sales Data]
 group by product
 order by Total_Revenue DESC
 
-------- 5 calculate monthly sales totals for the current year
+- ------- 5 calculate monthly sales totals for the current year
 select month(orderdate) as Sales_Month, 
 sum(Total_sales) as Monthly_Sales_Total
 from [dbo].[Sales Data]
@@ -114,7 +121,7 @@ where year(orderdate) = YEAR(getdate())
 GROUP BY MONTH(orderdate)
 order by Sales_month 
 
-----6 find the top 5 customers by total purchase amount
+- ----6 find the top 5 customers by total purchase amount
 select Top 5 Customer_ID,
 SUM(Total_Sales)
 as Total_Purchase_Amount 
@@ -122,7 +129,7 @@ from [dbo].[Sales Data]
 GROUP BY Customer_Id
 Order by Total_Purchase_Amount DESC 
 
----7 Calculate the percentage of totaltotal sales contributed by each region
+- ---7 Calculate the percentage of totaltotal sales contributed by each region
 Select Region,
 Sum(Total_Sales) as Regional_Sales,
 Convert (Decimal(5,2),
@@ -135,7 +142,7 @@ Group by Region
 Order by Regional_sales desc
 Select * from [dbo].[Sales Data]
 
-----8 Identify products with no sales in the last quarter
+- ----8 Identify products with no sales in the last quarter
 Select product
 From [dbo].[Sales Data]
 Where Product Not in (
