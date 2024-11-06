@@ -2,21 +2,14 @@
 
 ### PROJECT TITLE: SALES PERFORMANCE ANALYSIS
 
-[PROJECT OUTLINE](###PROJECT-OUTLINE)
-
-[PROJECT OVERVIEW](###PROJECT-OVERVIEW)
-
-[PROJECT OBJECTIVE](###PROJECT-OBJECTIVE)
-
-[DATA DESCRIPITION](###DATA-DESCRIPITION)
-
-[DATA TOOLS](###DATA-TOOLS)
-
-[DATA DESCRIPITION](###DATA-DESCRIPITION)
-
-[METHODOLOGY](###METHODOLOGY)
-
-[SQL QUERIES](###SQL-QUERIES)
+- [PROJECT OUTLINE](###PROJECT-OUTLINE)
+- [PROJECT OVERVIEW](###PROJECT-OVERVIEW)
+- [PROJECT OBJECTIVE](###PROJECT-OBJECTIVE)
+- [DATA DESCRIPITION](###DATA-DESCRIPITION)
+- [DATA TOOLS](###DATA-TOOLS)
+- [DATA DESCRIPITION](###DATA-DESCRIPITION)
+- [METHODOLOGY](###METHODOLOGY)
+- [SQL QUERIES](###SQL-QUERIES)
 
 ### PROJECT OVERVIEW
 ```
@@ -27,17 +20,25 @@ The goal is to provide insight into average sales per product and total revenue 
 
 ### PROJECT OBJECTIVE:
 ```
-Analyze total sales by product to identify top-selling products and areas for improvement.
-Examine sales trends by region to inform geographic expansion strategies.
-Investigate monthly sales patterns to optimize inventory management and forecasting.
-Calculate average sales per product to identify opportunities for product development.
-evaluate total revenue by region to allocate resources effectively 
+1 Analyze total sales by product to identify top-selling products and areas for improvement.
+2 Examine sales trends by region to inform geographic expansion strategies.
+3 Investigate monthly sales patterns to optimize inventory management and forecasting.
+4 Calculate average sales per product to identify opportunities for product development.
+5 evaluate total revenue by region to allocate resources effectively 
 ```
 
 ### DATA DESCRIPITION
 ```
-Sales data from January 2023 to August 2024.
-Order ID, Customer ID, Product, Region, Order Date, Quantity, Unit Price and Total Sales
+Order ID: This is a unique identifier associated with product purchased by customer.
+Customer ID: This is a unique identifier assigned to each customer
+Product: Goods purchased by customers.
+Region: Geographical area where transaction occurs.
+Order Date: This is the specific date on which a customer places an order for a product or service.
+Quantity: The amount or number of product being ordered or sold
+Unit Price: Cost of a single unit of a product
+Total Sales: The overall revenue generated from product sold over a specific period. 
+```
+ 
 Data sources:Excel files.
 ```
 
