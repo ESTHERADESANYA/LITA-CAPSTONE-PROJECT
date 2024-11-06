@@ -2,12 +2,17 @@
 
 ### PROJECT TITLE: SALES PERFORMANCE ANALYSIS
 
+[PROJECT-OUTLINE](###PROJECT OVERVIEW)
+[PROJECT-OBJECTIVE](###PROJECT OBJECTIVE)
+[DATA-DESCRIPITION](###DATA DESCRIPITION_
+
 ### PROJECT OVERVIEW
+```
 This repository contains the documentation for the Lita Capstone Project,focusing on sales analytics using Excel, SQL and PowerBI.
 The project aims to uncover key insights such as top-selling products, regional performance, and monthly sales trends. Additionally,
 The goal is to provide insight into average sales per product and total revenue by region, to inform business decisions. 
+```
 
-### PROJECT SCOPE:
 ### PROJECT OBJECTIVE:
 ```
 Analyze total sales by product to identify top-selling products and areas for improvement.
@@ -16,12 +21,14 @@ Investigate monthly sales patterns to optimize inventory management and forecast
 Calculate average sales per product to identify opportunities for product development.
 evaluate total revenue by region to allocate resources effectively 
 ```
+
 ### DATA DESCRIPITION
 ```
 Sales data from January 2023 to August 2024.
 Order ID, Customer ID, Product, Region, Order Date, Quantity, Unit Price and Total Sales
 Data sources:Excel files.
 ```
+
 ### DATA TOOLS:
 ```
 Microsoft Excel: Data analysis and manipulation
