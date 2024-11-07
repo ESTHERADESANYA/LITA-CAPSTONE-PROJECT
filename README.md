@@ -78,7 +78,6 @@ FUNCTIONS
 
 ### SQL QUERIES
 ```
-
 - The cleaned data from Excel was saved as CSV files and then imported into the SQL Database System.
 - I carried out my queries using DAX expressions, SQL Clauses and Data Query Language
 
@@ -153,8 +152,12 @@ OrderDate >= DATEADD(quarter,-1, Getdate())
 and OrderDate >= DATEADD(quarter,-1, Getdate()) 
 ```
 
-### RESULTS
-```
+### ANALYSIS
+
+###DASHNOARD OVERVIEW
+
+### DATA ANALYSIS AND INSIGHT GENERATION
+
 TOTAL SALES PER PRODUCT
 - Top-Selling Products: Shoes (613,380) and Shirts (485,600) are the highest performers, making up over 50% of total sales.
 - Lower-Selling Products: Socks (180,785) and Jackets (208,230) have the weakest sales, indicating possible opportunities for improvement.
