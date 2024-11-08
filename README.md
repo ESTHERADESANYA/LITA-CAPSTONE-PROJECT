@@ -156,6 +156,12 @@ and OrderDate >= DATEADD(quarter,-1, Getdate())
 
 ###DASHNOARD OVERVIEW
 
+EXCEL VISUALIZATIONS
+PIVOT TABLES
+![20241107_012308](https://github.com/user-attachments/assets/259d3a98-c555-4143-b990-5d3e4dfbfcd5)
+CHARTS
+![20241105_152037](https://github.com/user-attachments/assets/12857a47-3c8e-4751-a430-aec9999cf237)
+
 ### DATA ANALYSIS AND INSIGHT GENERATION
 
 TOTAL SALES PER PRODUCT
