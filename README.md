@@ -183,3 +183,22 @@ TOTAL SALES PER MONTH
 - Steady Performers: January, July, and June had relatively strong sales, between 240,000 and 275,000.
 - Declining Trend: Sales show a notable drop after February, with most months dipping below 150,000.
 ```
+CONCLUSION
+The sales data reveals that shoes and shirts are the dominant products, maintaining their momentum
+is critical to sustaining overall revenue.
+In contrast, indicates a potential gap in customer demand or product visibility. Additionally, The South region
+is the dominant contributor to total sales, which accounts for overall revenue. The East region performs moderately well
+while the North and West regions lag behind.
+This regional imbalance highlights an opportunity to better distribute sales and expand market share outside the South.
+Sales peaked in the month of February but there is a significant decline in sales after this month, while the month of
+September have the lowest performance, and the other month maintain steady sales.
+There is a need for strategies to combat seasonality and maintain sales momentum year-round.
+
+RECOMMENDATION
+Focus on Core Products (Shoes & Shirts): Continual promotion of these products as the primary drivers of revenue.
+Cross-Promotions & Bundling: Pairing of  shoes and shirts with lower-performing products (like socks and jackets)
+through targeted bundling offers to boost sales across the region.
+Promotional Offers: Consider discounting or creating limited-time offers to incentivize purchases of these lower-selling items.
+Additionally, showcasing these products in seasonal sales (e.g., jackets in fall or winter) could better align with customer buying cycles.
+Customer Retention & Loyalty: Given the South's strong performance, focus on customer retention strategies such as early access to sales. Reinforcing the relationship with existing customers can help sustain sales momentum.
+Plan for Seasonal Variability: Develop year-round marketing strategies that maintain customer interest, such as early bird offers before peak months 
