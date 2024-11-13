@@ -198,11 +198,13 @@ There is a need for strategies to combat seasonality and maintain sales momentum
 
 RECOMMENDATION
 ```
-Focus on Core Products (Shoes & Shirts): Continual promotion of these products as the primary drivers of revenue.
+- Focus on Core Products (Shoes & Shirts): Continual promotion of these products as the primary drivers of revenue.
 Cross-Promotions & Bundling: Pairing of  shoes and shirts with lower-performing products (like socks and jackets)
 through targeted bundling offers to boost sales across the region.
-Promotional Offers: Consider discounting or creating limited-time offers to incentivize purchases of these lower-selling items.
+
+- Promotional Offers: Consider discounting or creating limited-time offers to incentivize purchases of these lower-selling items.
 Additionally, showcasing these products in seasonal sales (e.g., jackets in fall or winter) could better align with customer buying cycles.
-Customer Retention & Loyalty: Given the South's strong performance, focus on customer retention strategies such as early access to sales. Reinforcing the relationship with existing customers can help sustain sales momentum.
+
+- Customer Retention & Loyalty: Given the South's strong performance, focus on customer retention strategies such as early access to sales. Reinforcing the relationship with existing customers can help sustain sales momentum.
 Plan for Seasonal Variability: Develop year-round marketing strategies that maintain customer interest, such as early bird offers before peak months 
 ```
