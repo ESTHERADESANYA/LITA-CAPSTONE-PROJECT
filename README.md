@@ -11,6 +11,11 @@
 - [DATA COLLECTION](###DATA-COLLECTION)
 - [METHODOLOGY](###METHODOLOGY)
 - [SQL QUERIES](###SQL-QUERIES)
+- [DASHBOARD OVERVIEW](###DASHBOARD-OVERVIEW)
+- [DATA ANALYSIS AND INSIGHT GENERATION](###DATAANALYSISANDINSIGHTGENERATION)
+- [CONCLUSION](###CONCLUSION)
+- [RECOMMENDATION](###RECOMMENDATION)
+
 
 ### PROJECT OVERVIEW
 ```
@@ -152,18 +157,17 @@ OrderDate >= DATEADD(quarter,-1, Getdate())
 and OrderDate >= DATEADD(quarter,-1, Getdate()) 
 ```
 
-### ANALYSIS
-
-###DASHNOARD OVERVIEW
-
+### DASHBOARD OVERVIEW
+```
 EXCEL VISUALIZATIONS
 PIVOT TABLES
 ![20241107_012308](https://github.com/user-attachments/assets/259d3a98-c555-4143-b990-5d3e4dfbfcd5)
 CHARTS
 ![20241105_152037](https://github.com/user-attachments/assets/12857a47-3c8e-4751-a430-aec9999cf237)
+```
 
 ### DATA ANALYSIS AND INSIGHT GENERATION
-
+```
 TOTAL SALES PER PRODUCT
 - Top-Selling Products: Shoes (613,380) and Shirts (485,600) are the highest performers, making up over 50% of total sales.
 - Lower-Selling Products: Socks (180,785) and Jackets (208,230) have the weakest sales, indicating possible opportunities for improvement.
@@ -183,7 +187,8 @@ TOTAL SALES PER MONTH
 - Steady Performers: January, July, and June had relatively strong sales, between 240,000 and 275,000.
 - Declining Trend: Sales show a notable drop after February, with most months dipping below 150,000.
 ```
-CONCLUSION
+
+### CONCLUSION
 ```
 The sales data reveals that shoes and shirts are the dominant products, maintaining their momentum
 is critical to sustaining overall revenue.
@@ -196,7 +201,7 @@ September have the lowest performance, and the other month maintain steady sales
 There is a need for strategies to combat seasonality and maintain sales momentum year-round.
 ```
 
-RECOMMENDATION
+### RECOMMENDATION
 ```
 - Focus on Core Products (Shoes & Shirts): Continual promotion of these products as the primary drivers of revenue.
 Cross-Promotions & Bundling: Pairing of  shoes and shirts with lower-performing products (like socks and jackets)
